@@ -1,0 +1,17 @@
+{
+    "recipes": {
+        "web-token/jwt-bundle": [
+            "3.0"
+        ],
+        "web-token/jwt-framework": [
+            "3.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/web-token/recipes",
+        "origin_template": "{package}:{version}@github.com/web-token/recipes:main",
+        "recipe_template": "https://api.github.com/repos/web-token/recipes/contents/recipes/{package_dotted}.{version}.json?ref=main"
+    }
+}

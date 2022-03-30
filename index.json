@@ -12,6 +12,6 @@
     "_links": {
         "repository": "github.com/web-token/recipes",
         "origin_template": "{package}:{version}@github.com/web-token/recipes:main",
-        "recipe_template": "https://api.github.com/repos/web-token/recipes/contents/recipes/{package_dotted}.{version}.json?ref=main"
+        "recipe_template": "https://api.github.com/repos/web-token/recipes/contents/{package_dotted}.{version}.json?ref=main"
     }
 }

@@ -1,4 +1,5 @@
 {
+    "aliases": [],
     "recipes": {
         "web-token/jwt-bundle": [
             "3.0"
@@ -7,11 +8,18 @@
             "3.0"
         ]
     },
-    "branch": "main",
-    "is_contrib": true,
+    "recipe-conflicts": [],
+    "versions": {
+        "splits": []
+    },
+    "branch": "tree",
+    "is_contrib": false,
     "_links": {
         "repository": "github.com/web-token/recipes",
-        "origin_template": "{package}:{version}@github.com/web-token/recipes:main",
-        "recipe_template": "https://api.github.com/repos/web-token/recipes/contents/{package_dotted}.{version}.json?ref=main"
+        "origin_template": "{package}:{version}@github.com/web-token/recipes:tree",
+        "recipe_template": "https://raw.githubusercontent.com/web-token/recipes/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/web-token/recipes/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }

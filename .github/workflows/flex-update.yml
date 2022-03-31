@@ -11,7 +11,7 @@ defaults:
 
 jobs:
     call-flex-update:
-        uses: symfony/recipes/.github/workflows/callable-flex-update.yml@tree
+        uses: web-token/recipes/.github/workflows/callable-flex-update.yml@tree
         with:
             branch: tree
             versions_json: .github/versions.json

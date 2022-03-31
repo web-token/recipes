@@ -1,0 +1,17 @@
+name: Update Flex endpoint
+
+on:
+    push:
+        branches:
+            - tree
+
+defaults:
+    run:
+        shell: bash
+
+jobs:
+    call-flex-update:
+        uses: symfony/recipes/.github/workflows/callable-flex-update.yml@tree
+        with:
+            branch: tree
+            versions_json: .github/versions.json
